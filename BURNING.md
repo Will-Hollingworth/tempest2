@@ -14,29 +14,29 @@ All ten are replaced. They sit in a row, D1 to R1, on the game PCB, and the file
 
 | Location | File | CRC32 | 16-bit sum |
 |---|---|---|---|
-| D1 | `roms/program/136002-113.d1` | 61E7CD5F | 6B2B |
-| E1 | `roms/program/136002-114.e1` | 1DD8ED5A | 18FE |
-| F1 | `roms/program/136002-115.f1` | D427FAC4 | F379 |
-| H1 | `roms/program/136002-316.h1` | C3E3A422 | 21B1 |
-| J1 | `roms/program/136002-217.j1` | 33F09F6A | 552D |
-| K1 | `roms/program/136002-118.k1` | 3534223C | 0029 |
-| L/M1 | `roms/program/136002-119.lm1` | ED1E1CB7 | D316 |
-| M/N1 | `roms/program/136002-120.mn1` | EF06689A | 49A0 |
-| P1 | `roms/program/136002-121.p1` | 855BE2ED | E64B |
-| R1 | `roms/program/136002-222.r1` | 3D0ACE3A | 8282 |
+| D1 | `roms/program/136002-113.d1` | A296B855 | 6842 |
+| E1 | `roms/program/136002-114.e1` | 45133E36 | 1A1B |
+| F1 | `roms/program/136002-115.f1` | DD2F9BA8 | F273 |
+| H1 | `roms/program/136002-316.h1` | F7B7B4F9 | 2242 |
+| J1 | `roms/program/136002-217.j1` | 80A0E820 | 560A |
+| K1 | `roms/program/136002-118.k1` | 35C11CA1 | 003C |
+| L/M1 | `roms/program/136002-119.lm1` | 05652966 | CFFD |
+| M/N1 | `roms/program/136002-120.mn1` | 82F4A18F | 49B8 |
+| P1 | `roms/program/136002-121.p1` | 82495421 | E8DE |
+| R1 | `roms/program/136002-222.r1` | 131F7734 | 8050 |
 
 The 16-bit sum is the simple byte checksum most EPROM programmers display after reading a chip.
 
 ## Vector ROMs (optional)
 
-These add the hyperspace star streaks and the fading title logo. Without them, Tempest² runs normally with Atari's dot star field and a logo that disappears at the end of the title.
+These add the hyperspace star streaks, the fading title logo and the softer attract-mode text. Without them, Tempest² runs normally with Atari's dot star field, a logo that disappears at the end of the title, and attract text at full brightness.
 
 | Location | File | CRC32 | 16-bit sum |
 |---|---|---|---|
-| N/P3 | `roms/vector/136002-123.np3` | 60CBBE53 | A796 |
-| R3 | `roms/vector/136002-124.r3` | 6F80234A | 3D87 |
+| N/P3 | `roms/vector/136002-123.np3` | C5A7F6B9 | 4A58 |
+| R3 | `roms/vector/136002-124.r3` | 3A9DCC4B | 3D87 |
 
-The original vector ROMs may be mask ROMs rather than EPROMs; a 2716 fits the same socket. **Only use these vector ROMs with the Tempest² program ROMs.** With any other program, the title logo is drawn at an unpredictable brightness and may be invisible.
+The original vector ROMs may be mask ROMs rather than EPROMs; a 2716 fits the same socket. **Only use these vector ROMs with the Tempest² program ROMs.** With any other program, the title logo and all the text are drawn at an unpredictable brightness and may be invisible.
 
 The self-test ROM check passes with either these or Atari's original vector ROMs.
 

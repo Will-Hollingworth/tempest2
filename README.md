@@ -10,6 +10,21 @@ Tempest² is an unofficial upgrade for the Atari Tempest arcade machine (the 12-
 
 Please read the [disclaimer](#disclaimer) before using these files.
 
+## See it in action
+
+<table>
+  <tr>
+    <td align="center"><img src="media/tempest2_title_screen.gif" width="320" alt="Title screen: the logo lands in a random colour and size, gets its superscript 2 and fades out"><br><b>Title screen</b><br>A new colour and size every time, the superscript 2 and a gentle fade</td>
+    <td align="center"><img src="media/tempest2_level_select.gif" width="320" alt="Level select: spinning left from level 1 wraps round to 112, and the previews switch to Tempest Tubes wells at level 17"><br><b>Level select</b><br>Spin left from 1 to wrap to 112; Tubes wells from level 17</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/tempest2_hyperspace.gif" width="320" alt="Hyperspace: the star field streaks past between levels"><br><b>Hyperspace jump</b><br>Light-speed streaks between levels</td>
+    <td align="center"><img src="media/tempest2_purple_level.gif" width="320" alt="Purple level 112: a 1,410,000 point start bonus and the dimmer far rim"><br><b>Level 112</b><br>Straight to the purple levels, with a 1.41 million start bonus</td>
+  </tr>
+</table>
+
+*Recorded in MAME.*
+
 ## What's new
 
 ### Twice the worlds: 32 well designs
@@ -33,7 +48,8 @@ Please read the [disclaimer](#disclaimer) before using these files.
 - **Tempest²!** The title screen now carries a superscript 2, so everyone knows this isn't your grandad's Tempest.
 
 ### Kind to your cabinet
-- **Screen-saver title logo.** The TEMPEST logo now lands in a different colour and size each time, then gently fades out\*. The copyright line under it appears at a different height each time too. That's less burn-in on your precious tube.
+- **Screen-saver title logo.** The TEMPEST logo now lands in a different colour and size each time, then gently fades out\*. That's less burn-in on your precious tube.
+- **Softer attract text\*.** While the machine waits for players, the copyright, coin and start messages, the high-score table and the scores glow at a gentler brightness, so they wear the screen more slowly. Start a game and everything is back to full brightness.
 - **Operator-friendly attract mode.** Demo games show off any of the 112 levels, and a DIP switch can make the demo player invincible.
 
 ### Under the hood
@@ -42,9 +58,9 @@ Please read the [disclaimer](#disclaimer) before using these files.
 
 ### Every byte counts
 - **No extra hardware.** Everything above fits in the same chips the original used: ten 2 KB program ROMs, 20,480 bytes in all.
-- **6 bytes to spare.** That's all that's left of the program space.
-- **Where the room came from.** The French, German and Spanish text freed about 1,200 bytes. Atari's copy-protection traps gave back 222 more. The rest came from rewriting the code tightly, with no patches bolted on.
-- **The vector ROM changes added nothing.** The star streaks and the fading logo were done by changing the drawing data that's already there, so not a single byte was added.
+- **3 bytes to spare.** That's all that's left of the program space.
+- **Where the room came from.** The French, German and Spanish text freed about 1,200 bytes. Atari's copy-protection traps gave back 222 more, and a few bytes Atari left unused gave 13. The rest came from rewriting the code tightly, with no patches bolted on.
+- **The vector ROM changes added nothing.** The star streaks, the fading logo and the softer text were done by changing the drawing data that's already there, so not a single byte was added.
 
 \* Needs the two optional vector ROMs.
 
@@ -66,12 +82,17 @@ Switch 8 was Atari's "2 credit minimum" option, which is no longer used. In MAME
 
 ## Good to know
 - **Ten chips to swap:** all ten program ROMs are replaced. Everything else on the board stays stock.
-- **Two optional vector ROMs** add the hyperspace streaks and the fading logo. Fit them or not, as you like: the self-test passes either way. Only use them with the Tempest² program ROMs.
+- **Two optional vector ROMs** add the hyperspace streaks, the fading logo and the softer attract text. Fit them or not, as you like: the self-test passes either way. Only use them with the Tempest² program ROMs.
 - **English only.** The other languages were removed to make room. The old language DIP switches now choose your well designs instead.
 - **Upgrading from Tempest CAX 2026?** Tempest² also fixes three bugs in that set:
   - Player 2's million-point start bonus going astray.
   - Flippers flipping from the wrong angle on the straight-line well.
   - Wrong level numbers from 200 to 255.
+
+## Version history
+
+- **v1.1:** softer attract-mode text; the far end of the well a little brighter (it was too faint on real monitors). All twelve chips changed from v1.0.
+- **v1.0:** first release.
 
 ## Files
 
@@ -80,6 +101,7 @@ Switch 8 was Atari's "2 credit minimum" option, which is no longer used. In MAME
 | `roms/program/` | The ten program ROMs (required) |
 | `roms/vector/` | The two vector ROMs (optional) |
 | `mame/tempest3.zip` | A complete set for MAME, including Atari's unchanged PROMs |
+| `media/` | The animated GIFs shown above |
 
 ## With thanks
 - **Dave Theurer**, who created Tempest at Atari in 1981.
