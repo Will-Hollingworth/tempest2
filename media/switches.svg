@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1348" width="900" height="1348" font-family="Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1b3c52"/></marker></defs>
+<rect x="1" y="1" width="898" height="1346" rx="14" fill="#ffffff" stroke="#c8c8c8" stroke-width="2"/>
+<text x="40" y="52" font-size="24" fill="#222" font-weight="bold">DIP switch bank L12, as it sits on the board</text>
+<text x="40" y="80" font-size="16" fill="#555">Switch 8 is on the left. ON = slider pushed toward the printed numbers. Shown: 6, 7, 8 OFF.</text>
+<rect x="150" y="105" width="600" height="170" rx="10" fill="#8fc9ef" stroke="#4a8db8" stroke-width="2"/>
+<rect x="178" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="182" y="143" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="199" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">8</text>
+<rect x="243" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="247" y="143" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="264" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">7</text>
+<rect x="308" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="312" y="143" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="329" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">6</text>
+<rect x="373" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="377" y="185" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="394" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">5</text>
+<rect x="438" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="442" y="185" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="459" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">4</text>
+<rect x="503" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="507" y="185" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="524" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">3</text>
+<rect x="568" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="572" y="185" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="589" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">2</text>
+<rect x="633" y="140" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="637" y="185" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="654" y="258" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">1</text>
+<path d="M712 152 L712 212" stroke="#1b3c52" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="712" y="240" font-size="16" fill="#1b3c52" font-weight="bold" text-anchor="middle">ON</text>
+<path d="M180 292 L218 292" stroke="#2f7fd0" stroke-width="4" fill="none"/>
+<path d="M245 292 L348 292" stroke="#2e9e48" stroke-width="4" fill="none"/>
+<path d="M375 292 L543 292" stroke="#9a9a9a" stroke-width="4" fill="none"/>
+<path d="M570 292 L673 292" stroke="#9a9a9a" stroke-width="4" fill="none"/>
+<text x="199" y="316" font-size="15" fill="#2f7fd0" font-weight="bold" text-anchor="middle">Demo</text>
+<text x="199" y="334" font-size="15" fill="#444" text-anchor="middle">see below</text>
+<text x="296" y="316" font-size="15" fill="#2e9e48" font-weight="bold" text-anchor="middle">Wells</text>
+<text x="296" y="334" font-size="15" fill="#444" text-anchor="middle">see below</text>
+<text x="459" y="316" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">Bonus life</text>
+<text x="459" y="334" font-size="15" fill="#444" text-anchor="middle">as original</text>
+<text x="621" y="316" font-size="15" fill="#666" font-weight="bold" text-anchor="middle">Lives</text>
+<text x="621" y="334" font-size="15" fill="#444" text-anchor="middle">as original</text>
+<text x="40" y="372" font-size="17" fill="#2e9e48" font-weight="bold">Wells</text>
+<text x="40" y="398" font-size="15" fill="#666" font-weight="bold">6</text>
+<text x="80" y="398" font-size="15" fill="#666" font-weight="bold">7</text>
+<text x="40" y="422" font-size="15" fill="#444">On</text>
+<text x="80" y="422" font-size="15" fill="#444">On</text>
+<text x="125" y="422" font-size="15" fill="#444">Classic only (Atari's suggested)</text>
+<text x="40" y="446" font-size="15" fill="#444">On</text>
+<text x="80" y="446" font-size="15" fill="#444">Off</text>
+<text x="125" y="446" font-size="15" fill="#444">Alternate: classic 1–16, Tubes 17–32, ...</text>
+<text x="40" y="470" font-size="15" fill="#444">Off</text>
+<text x="80" y="470" font-size="15" fill="#444">On</text>
+<text x="125" y="470" font-size="15" fill="#444">Tubes only</text>
+<text x="40" y="494" font-size="15" fill="#444">Off</text>
+<text x="80" y="494" font-size="15" fill="#444">Off</text>
+<text x="125" y="494" font-size="15" fill="#444">Alternate: Tubes 1–16, classic 17–32, ...</text>
+<text x="560" y="372" font-size="17" fill="#2f7fd0" font-weight="bold">Demo (attract mode)</text>
+<text x="560" y="398" font-size="15" fill="#666" font-weight="bold">8</text>
+<text x="560" y="422" font-size="15" fill="#444">On</text>
+<text x="600" y="422" font-size="15" fill="#444">Demo player invincible</text>
+<text x="600" y="442" font-size="14" fill="#777">(Atari's suggested)</text>
+<text x="560" y="470" font-size="15" fill="#444">Off</text>
+<text x="600" y="470" font-size="15" fill="#444">Demo player can lose lives</text>
+<text x="40" y="528" font-size="14" fill="#777">In MAME, switches 6 and 7 appear as "Language", and 8 as the minimum-credits option.</text>
+<path d="M40 550 L860 550" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+<text x="40" y="588" font-size="24" fill="#222" font-weight="bold">The same switches on the self-test screen</text>
+<text x="40" y="616" font-size="16" fill="#555">Second row of digits. Here switch 1 is on the LEFT, the opposite of the board, and 1 means OFF.</text>
+<rect x="180" y="636" width="60" height="50" rx="6" fill="#eeeeee" stroke="#9a9a9a" stroke-width="2"/>
+<text x="210" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<text x="210" y="708" font-size="15" fill="#555" text-anchor="middle">sw 1</text>
+<rect x="245" y="636" width="60" height="50" rx="6" fill="#eeeeee" stroke="#9a9a9a" stroke-width="2"/>
+<text x="275" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<text x="275" y="708" font-size="15" fill="#555" text-anchor="middle">sw 2</text>
+<rect x="310" y="636" width="60" height="50" rx="6" fill="#eeeeee" stroke="#9a9a9a" stroke-width="2"/>
+<text x="340" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<text x="340" y="708" font-size="15" fill="#555" text-anchor="middle">sw 3</text>
+<rect x="375" y="636" width="60" height="50" rx="6" fill="#eeeeee" stroke="#9a9a9a" stroke-width="2"/>
+<text x="405" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<text x="405" y="708" font-size="15" fill="#555" text-anchor="middle">sw 4</text>
+<rect x="440" y="636" width="60" height="50" rx="6" fill="#eeeeee" stroke="#9a9a9a" stroke-width="2"/>
+<text x="470" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<text x="470" y="708" font-size="15" fill="#555" text-anchor="middle">sw 5</text>
+<rect x="505" y="636" width="60" height="50" rx="6" fill="#e3f4e7" stroke="#2e9e48" stroke-width="3"/>
+<text x="535" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">1</text>
+<text x="535" y="708" font-size="15" fill="#555" text-anchor="middle">sw 6</text>
+<rect x="570" y="636" width="60" height="50" rx="6" fill="#e3f4e7" stroke="#2e9e48" stroke-width="3"/>
+<text x="600" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">1</text>
+<text x="600" y="708" font-size="15" fill="#555" text-anchor="middle">sw 7</text>
+<rect x="635" y="636" width="60" height="50" rx="6" fill="#e1edf9" stroke="#2f7fd0" stroke-width="3"/>
+<text x="665" y="670" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">1</text>
+<text x="665" y="708" font-size="15" fill="#555" text-anchor="middle">sw 8</text>
+<text x="40" y="746" font-size="15" fill="#444">Example: 00000111 = switches 6, 7 and 8 OFF (Tubes 1–16 then classic, demo player can die); 1–5 ON.</text>
+<path d="M40 768 L860 768" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+<text x="40" y="806" font-size="24" fill="#222" font-weight="bold">Auxiliary (Math Box) board, switch bank D/E2</text>
+<text x="40" y="834" font-size="16" fill="#555">Numbers along the top, ON = slider pushed toward them. Shown: Atari's suggested settings.</text>
+<rect x="110" y="864" width="340" height="140" rx="10" fill="#8fc9ef" stroke="#4a8db8" stroke-width="2"/>
+<path d="M140 986 L140 926" stroke="#1b3c52" stroke-width="2.5" marker-end="url(#ah)"/>
+<text x="140" y="904" font-size="16" fill="#1b3c52" font-weight="bold" text-anchor="middle">ON</text>
+<text x="199" y="894" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">1</text>
+<rect x="178" y="906" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="182" y="951" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="264" y="894" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">2</text>
+<rect x="243" y="906" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#d07a1f" stroke-width="3"/>
+<rect x="247" y="951" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="329" y="894" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">3</text>
+<rect x="308" y="906" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="312" y="909" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="394" y="894" font-size="22" fill="#1b3c52" font-weight="bold" text-anchor="middle">4</text>
+<rect x="373" y="906" width="42" height="80" rx="4" fill="#f4f4f4" stroke="#4a8db8" stroke-width="1.5"/>
+<rect x="377" y="909" width="34" height="32" rx="3" fill="#fff" stroke="#888" stroke-width="1.5"/>
+<text x="199" y="1026" font-size="15" fill="#555" text-anchor="middle">spare</text>
+<text x="264" y="1026" font-size="15" fill="#d07a1f" font-weight="bold" text-anchor="middle">dimming</text>
+<text x="361" y="1026" font-size="15" fill="#555" text-anchor="middle">difficulty</text>
+<text x="490" y="876" font-size="16" fill="#d07a1f" font-weight="bold">Switch 2: burn-in dimming</text>
+<text x="490" y="898" font-size="14" fill="#777">(Atari's "Minimum rating range")</text>
+<text x="505" y="922" font-size="15" fill="#444">OFF = dimmed text and logo (Atari's suggested)</text>
+<text x="505" y="944" font-size="15" fill="#444">ON = full brightness, as stock</text>
+<text x="490" y="980" font-size="16" fill="#222" font-weight="bold">Switches 3 and 4: difficulty</text>
+<text x="505" y="1006" font-size="15" fill="#666" font-weight="bold">3</text>
+<text x="545" y="1006" font-size="15" fill="#666" font-weight="bold">4</text>
+<text x="505" y="1028" font-size="15" fill="#444">Off</text>
+<text x="545" y="1028" font-size="15" fill="#444">Off</text>
+<text x="600" y="1028" font-size="15" fill="#444">Medium</text>
+<text x="505" y="1050" font-size="15" fill="#444">Off</text>
+<text x="545" y="1050" font-size="15" fill="#444">On</text>
+<text x="600" y="1050" font-size="15" fill="#444">Easy</text>
+<text x="505" y="1072" font-size="15" fill="#444">On</text>
+<text x="545" y="1072" font-size="15" fill="#444">Off</text>
+<text x="600" y="1072" font-size="15" fill="#444">Hard</text>
+<text x="505" y="1094" font-size="15" fill="#444">On</text>
+<text x="545" y="1094" font-size="15" fill="#444">On</text>
+<text x="600" y="1094" font-size="15" fill="#444">Medium (Atari's suggested)</text>
+<text x="40" y="1064" font-size="14" fill="#555">Easy: enemies slower, one</text>
+<text x="40" y="1082" font-size="14" fill="#555">less enemy shot. Hard: one</text>
+<text x="40" y="1100" font-size="14" fill="#555">more enemy, faster, 1–4 more shots.</text>
+<text x="40" y="1164" font-size="20" fill="#222" font-weight="bold">D/E2 on the self-test screen</text>
+<text x="40" y="1190" font-size="16" fill="#555">Third row of digits. Only the last three are switches, and here 1 means ON (the opposite of L12).</text>
+<rect x="180" y="1208" width="60" height="50" rx="6" fill="#f6f6f6" stroke="#cfcfcf" stroke-width="2"/>
+<text x="210" y="1242" font-size="26" fill="#bbb" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<rect x="245" y="1208" width="60" height="50" rx="6" fill="#f6f6f6" stroke="#cfcfcf" stroke-width="2"/>
+<text x="275" y="1242" font-size="26" fill="#bbb" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<rect x="310" y="1208" width="60" height="50" rx="6" fill="#f6f6f6" stroke="#cfcfcf" stroke-width="2"/>
+<text x="340" y="1242" font-size="26" fill="#bbb" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<rect x="375" y="1208" width="60" height="50" rx="6" fill="#f6f6f6" stroke="#cfcfcf" stroke-width="2"/>
+<text x="405" y="1242" font-size="26" fill="#bbb" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<rect x="440" y="1208" width="60" height="50" rx="6" fill="#f6f6f6" stroke="#cfcfcf" stroke-width="2"/>
+<text x="470" y="1242" font-size="26" fill="#bbb" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<rect x="505" y="1208" width="60" height="50" rx="6" fill="#fbeee0" stroke="#d07a1f" stroke-width="3"/>
+<text x="535" y="1242" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">0</text>
+<text x="535" y="1280" font-size="15" fill="#d07a1f" font-weight="bold" text-anchor="middle">sw 2</text>
+<rect x="570" y="1208" width="60" height="50" rx="6" fill="#ececec" stroke="#7a7a7a" stroke-width="3"/>
+<text x="600" y="1242" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">1</text>
+<text x="600" y="1280" font-size="15" fill="#555" text-anchor="middle">sw 3</text>
+<rect x="635" y="1208" width="60" height="50" rx="6" fill="#ececec" stroke="#7a7a7a" stroke-width="3"/>
+<text x="665" y="1242" font-size="26" fill="#333" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">1</text>
+<text x="665" y="1280" font-size="15" fill="#555" text-anchor="middle">sw 4</text>
+<text x="340" y="1280" font-size="14" fill="#999" text-anchor="middle">not switches</text>
+<text x="40" y="1318" font-size="15" fill="#444">Example: 00000011 = Atari's suggested settings: switch 2 OFF (dimming on), 3 and 4 ON (Medium).</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1MTZjZGYzMS01MTVmLTQwZTAtOTlhZS1kYTRmOWZlN2U4YzEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJySVigW+sL6IT6iicChD5wAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiNDBmZTY5Mi00NDkzLTRiYzktYTJhNC0yYTkyMDg1NTY0ZTZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNonCRalUODqnzpsW8MoLJTogAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggCyAxbQx6t9DYmiKLQz+vzXgyMU/qvilnntkRQ52mcBekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGVDd2+HJTQ2jp3BcTZSQAgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIPGxbq2vTOWMwkiX3iooGkblrWU0SzPSQEOvWK9nZ8NcZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GT28Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjUxNmNkZjMxLTUxNWYtNDBlMC05OWFlLWRhNGY5ZmU3ZThjMS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmUwYmM4ZjhkLTdlNTQtNGUwZC05NTQ2LTNmNWFjOTU0NTRlZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCALIDFtDHq30NiaIotDP6/NeDIxT+q+KWee2RFDnaZwF6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggC2PFonomFhBTcC3eFnuYYY3KsGIix1iLBYLeWv6qjfaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggyQqTVj+TVok5dLz85DNFCkr+KtKfXd2+C3uhhgXVUzZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIpTt6QDpxcpRfg1epMSoKdIzy4lZCdrS1xOf8zeTHpl5J9V3BhxIkCVNZu6PUlOkkNur50N+XTSzfQOWWvUYFU=</c2pa:manifest></metadata></svg>

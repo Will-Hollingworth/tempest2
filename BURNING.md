@@ -8,35 +8,38 @@ Tempest² is for the **12-ROM Tempest board**, where every program and vector RO
 - An EPROM programmer, and an eraser if you are reusing chips.
 - Anti-static precautions (wrist strap or at least a grounded work surface).
 
+## Upgrading from v1.1
+Burn all ten program ROMs again. If you fitted the vector ROMs, re-burn `136002-123.np3` too; `136002-124.r3` is unchanged from v1.1.
+
 ## Program ROMs (required)
 
 All ten are replaced. They sit in a row, D1 to R1, on the game PCB, and the files are named after their board locations.
 
 | Location | File | CRC32 | 16-bit sum |
 |---|---|---|---|
-| D1 | `roms/program/136002-113.d1` | A296B855 | 6842 |
-| E1 | `roms/program/136002-114.e1` | 45133E36 | 1A1B |
-| F1 | `roms/program/136002-115.f1` | DD2F9BA8 | F273 |
-| H1 | `roms/program/136002-316.h1` | F7B7B4F9 | 2242 |
-| J1 | `roms/program/136002-217.j1` | 80A0E820 | 560A |
-| K1 | `roms/program/136002-118.k1` | 35C11CA1 | 003C |
-| L/M1 | `roms/program/136002-119.lm1` | 05652966 | CFFD |
-| M/N1 | `roms/program/136002-120.mn1` | 82F4A18F | 49B8 |
-| P1 | `roms/program/136002-121.p1` | 82495421 | E8DE |
-| R1 | `roms/program/136002-222.r1` | 131F7734 | 8050 |
+| D1 | `roms/program/136002-113.d1` | 28C1F073 | 68FF |
+| E1 | `roms/program/136002-114.e1` | 574807DB | 1881 |
+| F1 | `roms/program/136002-115.f1` | 47F46929 | EECC |
+| H1 | `roms/program/136002-316.h1` | EC357BA6 | 1F17 |
+| J1 | `roms/program/136002-217.j1` | 4FBA8A9A | 503C |
+| K1 | `roms/program/136002-118.k1` | 2E95B046 | FE97 |
+| L/M1 | `roms/program/136002-119.lm1` | A2A0D83B | D5FF |
+| M/N1 | `roms/program/136002-120.mn1` | B652BA5C | 4CB4 |
+| P1 | `roms/program/136002-121.p1` | 2E83EFF7 | E620 |
+| R1 | `roms/program/136002-222.r1` | FA831143 | 7E8E |
 
 The 16-bit sum is the simple byte checksum most EPROM programmers display after reading a chip.
 
 ## Vector ROMs (optional)
 
-These add the hyperspace star streaks, the fading title logo and the softer attract-mode text. Without them, Tempest² runs normally with Atari's dot star field, a logo that disappears at the end of the title, and attract text at full brightness.
+These add the hyperspace star streaks, the fading and dimmed title sequence, and the softer attract-mode text. Without them, Tempest² runs normally with Atari's dot star field, a title sequence and logo at full brightness (the logo disappears at the end of the title), and attract text at full brightness.
 
 | Location | File | CRC32 | 16-bit sum |
 |---|---|---|---|
-| N/P3 | `roms/vector/136002-123.np3` | C5A7F6B9 | 4A58 |
+| N/P3 | `roms/vector/136002-123.np3` | 4810423F | 47D8 |
 | R3 | `roms/vector/136002-124.r3` | 3A9DCC4B | 3D87 |
 
-The original vector ROMs may be mask ROMs rather than EPROMs; a 2716 fits the same socket. **Only use these vector ROMs with the Tempest² program ROMs.** With any other program, the title logo and all the text are drawn at an unpredictable brightness and may be invisible.
+The original vector ROMs may be mask ROMs rather than EPROMs; a 2716 fits the same socket. **Only use these vector ROMs with the Tempest² program ROMs.** With any other program, the title sequence and all the text are drawn at an unpredictable brightness and may be invisible.
 
 The self-test ROM check passes with either these or Atari's original vector ROMs.
 
@@ -47,7 +50,7 @@ The self-test ROM check passes with either these or Atari's original vector ROMs
 4. **Remove the old chips** carefully and keep them. You can go back at any time by refitting them.
 5. **Fit the new chips** with the notch facing the same way as the originals. Check that no pins are folded under.
 6. **Power on and run the self-test** (test switch). The ROM check should pass.
-7. **Set the DIP switches** at L12 for the well designs and attract mode you want (see the README).
+7. **Set the DIP switches:** L12 on the main board for the well designs and attract mode, and switch 2 on the Math Box board's D/E2 bank for the burn-in dimming. The README's [switch guide](README.md#dip-switch-settings) shows where they are and how to check them on the self-test screen.
 
 ## After upgrading
 - The high-score table now also stores the level each player reached. If the table looks odd the first time, clear it.
