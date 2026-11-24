@@ -55,7 +55,7 @@ A Tempest left switched on spends most of its life in attract mode, drawing the 
 - **Title burst dimmed by size\* (new in v1.2).** The rectangles and logo copies take a brightness from their size: full brightness at full size, falling as they shrink toward the centre. The smallest are drawn at the brightness of the faintest line in the self-test's colour-bar pattern, so they're still visible on a real monitor while putting far less wear where it was worst.
 - **Screen-saver title logo.** The TEMPEST logo lands in a different colour and size each time, then gently fades out\*, so it never burns the same outline.
 - **Softer attract text\*.** While the machine waits for players, the copyright, coin and start messages, the high-score table and the scores glow at a gentler brightness. Start a game and everything is back to full brightness.
-- **No more bright dots (new in v1.2).** The full stop after each rank in the high-score table was drawn as a single spot at a fixed high brightness, which the dimming couldn't reach. It's gone: ranks now read "1", "2", "3"…
+- **No more bright dots (new in v1.2).** The full stop after each rank, in the high-score table and in the ranking list on the initials screen, was drawn as a single spot at a fixed high brightness, which the dimming couldn't reach. It's gone: ranks now read "1", "2", "3"…
 - **Your choice (new in v1.2).** The dimming is on with Atari's suggested switch settings. Flip switch 2 on the Math Box board and the text and title sequence go back to stock brightness (see [DIP switch settings](#dip-switch-settings)).
 - **Operator-friendly attract mode.** Demo games show off any of the 112 levels, and a DIP switch can make the demo player invincible.
 
@@ -65,8 +65,8 @@ A Tempest left switched on spends most of its life in attract mode, drawing the 
 
 ### Every byte counts
 - **No extra hardware.** Everything above fits in the same chips the original used: ten 2 KB program ROMs, 20,480 bytes in all.
-- **6 bytes to spare.** That's all that's left of the program space.
-- **Where the room came from.** The French, German and Spanish text freed about 1,200 bytes. Atari's copy-protection traps gave back 222 more, and a few bytes Atari left unused gave 13. For v1.2, 28 more came from tightening branches in Atari's own code, and 11 from a header word and a full stop that were no longer needed. The rest came from rewriting the code tightly, with no patches bolted on.
+- **11 bytes to spare.** That's all that's left of the program space.
+- **Where the room came from.** The French, German and Spanish text freed about 1,200 bytes. Atari's copy-protection traps gave back 222 more, and a few bytes Atari left unused gave 13. For v1.2, 28 more came from tightening branches in Atari's own code, and 16 from a header word and two full stops that were no longer needed. The rest came from rewriting the code tightly, with no patches bolted on.
 - **The vector ROM changes added nothing.** The star streaks, the fading and dimmed title sequence and the softer text were done by changing the drawing data that's already there, so not a single byte was added.
 
 \* Needs the two optional vector ROMs.

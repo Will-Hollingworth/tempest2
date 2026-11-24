@@ -17,16 +17,16 @@ All ten are replaced. They sit in a row, D1 to R1, on the game PCB, and the file
 
 | Location | File | CRC32 | 16-bit sum |
 |---|---|---|---|
-| D1 | `roms/program/136002-113.d1` | 28C1F073 | 68FF |
-| E1 | `roms/program/136002-114.e1` | 574807DB | 1881 |
-| F1 | `roms/program/136002-115.f1` | 47F46929 | EECC |
-| H1 | `roms/program/136002-316.h1` | EC357BA6 | 1F17 |
-| J1 | `roms/program/136002-217.j1` | 4FBA8A9A | 503C |
-| K1 | `roms/program/136002-118.k1` | 2E95B046 | FE97 |
-| L/M1 | `roms/program/136002-119.lm1` | A2A0D83B | D5FF |
-| M/N1 | `roms/program/136002-120.mn1` | B652BA5C | 4CB4 |
-| P1 | `roms/program/136002-121.p1` | 2E83EFF7 | E620 |
-| R1 | `roms/program/136002-222.r1` | FA831143 | 7E8E |
+| D1 | `roms/program/136002-113.d1` | FE24759C | 68DC |
+| E1 | `roms/program/136002-114.e1` | 98DFE6B6 | 185E |
+| F1 | `roms/program/136002-115.f1` | 6564C8A6 | EE9A |
+| H1 | `roms/program/136002-316.h1` | 6097FF47 | 1CB3 |
+| J1 | `roms/program/136002-217.j1` | 2C76988A | 5740 |
+| K1 | `roms/program/136002-118.k1` | 47F61EBC | FF7F |
+| L/M1 | `roms/program/136002-119.lm1` | 2F9B74E8 | D421 |
+| M/N1 | `roms/program/136002-120.mn1` | 6600E49D | 4910 |
+| P1 | `roms/program/136002-121.p1` | CED59C40 | E8C5 |
+| R1 | `roms/program/136002-222.r1` | 932CDBE6 | 7C2C |
 
 The 16-bit sum is the simple byte checksum most EPROM programmers display after reading a chip.
 
